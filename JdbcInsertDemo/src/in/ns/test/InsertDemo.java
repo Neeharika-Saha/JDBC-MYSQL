@@ -18,7 +18,7 @@ public class InsertDemo {
 			// Create Connection
 			// getConnection("url","username","password");
 			// url = jdbc:mysql://localhost:3306/database_name
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","Lcen@2001");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","root");
 			
 			// Create Statement
 			//PreparedStatement ps = con.prepareStatement("INSERT INTO DEPT VALUES(102,'ECE')");
