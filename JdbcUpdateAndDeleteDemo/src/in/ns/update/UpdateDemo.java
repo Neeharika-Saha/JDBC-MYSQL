@@ -17,7 +17,7 @@ public class UpdateDemo {
 			//Load & Register Driver
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			//Create Connection
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","Lcen@2001");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","root");
 			// Create Statement
 			PreparedStatement ps = con.prepareStatement("UPDATE DEPT SET NAME=? WHERE ID=?");
 			ps.setString(1, name);
