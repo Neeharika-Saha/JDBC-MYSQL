@@ -19,35 +19,24 @@ This repository contains Java programs demonstrating how to use **JDBC (Java Dat
 
 ## 📂 Repository Structure
 
-JDBC-MYSQL/
-├── JdbcInsertDemo/                 # Insert operation project
-│   ├── src/
-│   │   └── in/ns/test/InsertDemo.java
-│   ├── bin/                        # Compiled .class files
-│   ├── .classpath
-│   ├── .project
-│   └── .settings/
-│
-├── JdbcSelectDemo/                 # Select operation project
-│   ├── src/
-│   │   └── in/ns/select/SelectDemo.java
-│   ├── bin/
-│   ├── .classpath
-│   ├── .project
-│   └── .settings/
-│
-├── JdbcUpdateAndDeleteDemo/        # Update & Delete operation project
-│   ├── src/
-│   │   ├── in/ns/update/UpdateDemo.java
-│   │   └── in/ns/delete/DeleteDemo.java
-│   ├── bin/
-│   ├── .classpath
-│   ├── .project
-│   └── .settings/
-│
-└── README.md                       # Project documentation
-
-
+-   **JDBC-MYSQL/**
+    -   **JdbcInsertDemo/** _(Insert operation project)_
+        -   src/
+            -   in/ns/test/
+                -   InsertDemo.java
+    -   **JdbcSelectDemo/** _(Select operation project)_
+        -   src/
+            -   in/ns/select/
+                -   SelectDemo.java
+    -   **JdbcUpdateAndDeleteDemo/** _(Update & Delete operation project)_
+        -   src/
+            -   in/ns/
+                -   update/
+                    -   Update.java
+                -   delete/
+                    -   DeleteDemo.java
+    -   README.md _(Project documentation)_
+            
 
 ---
 
@@ -56,7 +45,7 @@ JDBC-MYSQL/
 - Java Development Kit (**JDK 8** or higher)
 - **MySQL** Server (version 5.7+ or 8.0+)
 - **MySQL Connector/J** JDBC driver
-- An IDE like **Eclipse** or **VS Code**
+- An IDE like **Eclipse** or **VS Code** or **IntelliJ IDEA**
 
 ---
 
